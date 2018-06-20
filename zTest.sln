@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zTest", "zTest.csproj", "{54F82B66-C954-4DD3-BF33-959ED3F7AEC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zTest.Editor", "zTest.Editor.csproj", "{5E94B772-8AE6-AB02-F5A9-BEFE89B36C9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54F82B66-C954-4DD3-BF33-959ED3F7AEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F82B66-C954-4DD3-BF33-959ED3F7AEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F82B66-C954-4DD3-BF33-959ED3F7AEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F82B66-C954-4DD3-BF33-959ED3F7AEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E94B772-8AE6-AB02-F5A9-BEFE89B36C9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E94B772-8AE6-AB02-F5A9-BEFE89B36C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E94B772-8AE6-AB02-F5A9-BEFE89B36C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E94B772-8AE6-AB02-F5A9-BEFE89B36C9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

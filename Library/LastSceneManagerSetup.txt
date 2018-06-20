@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/BayatGames/SaveGamePro/Examples/Saving Game Object/Scenes/Save Game
+    Object.unity
+  isLoaded: 1
+  isActive: 1
