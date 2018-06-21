@@ -85,7 +85,7 @@ namespace BayatGames.SaveGamePro.Examples
         /// </summary>
         public void Save()
         {
-            SaveGame.Save("gameObject.", target);
+            SaveGame.Save("gameObject.txt", target);
             Debug.Log("Object Saved!");
         }
 
@@ -96,10 +96,12 @@ namespace BayatGames.SaveGamePro.Examples
         {
             if (target == null)
             {
-                for (int i = 0; i < target.Count; i++)
-                {
-                    target[i] = SaveGame.Load<GameObject>("gameObject.txt");
-                }
+                target = SaveGame.Load<List<GameObject>>("gameObject.txt");
+
+                //for (int i = 0; i < target.Count; i++)
+                //{
+                //    target[i] = SaveGame.Load<GameObject>("gameObject.txt");
+                //}
             }
             else
             {
